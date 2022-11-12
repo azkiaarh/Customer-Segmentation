@@ -5,7 +5,7 @@
 #### Objective Statement:
 * To know the grand total per month and in each year.
 * To know the grand total per month in each year and month with the highest and lowest grand total in each year.
-* To know the most significant decrease and increase in each year.
+* To know the comparison of the grand total between each year and find month with the most significant decrease and increase in each year.
 * To get customer segmentation using RFM model.
 * To know how to optimize marketing strategies to the right customers to generate more revenue.
 
@@ -28,7 +28,7 @@
 #### Expected Outcome:
 * Know the grand total in each year
 * Know the grand total per month in each year and month with the highest and lowest grand total in each year.
-* Know the most significant decrease and increase in each year.
+* Know the comparison of the grand total between each year and know month with the most significant decrease and increase in each year.
 * Get customer segmentation using RFM model.
 * Know how to optimize marketing strategies to the right customers to generate more revenue.
 
@@ -38,7 +38,7 @@ Retail is the process of selling consumer goods or services to customers through
 This case requires data-driven answers to the following questions:
 * How much is the grand total in each year?
 * How much is the grand total per month in each year and which month has the highest and lowest grand total in each year?
-* Which month has the most significant decrease and increase in each year?
+* How is the comparison of the grand total between each year and which month has the most significant decrease and increase in each year?
 * How is the customer segmentation using RFM model?
 * How to optimize marketing strategies to the right customers to generate more revenue?
 
@@ -63,16 +63,16 @@ Code Used :
 
 # Data Cleansing
 * We need to change the order_date data type from object to datetime because the column value is a transaction date which should be a datetime data type.
+* We need to create a new column that takes only the year and month from order_date column
 
 # Exploratory Data Analysis
 
-### How much is the grand total in each year?
+#### How much is the grand total in each year?
 
 ![image](https://user-images.githubusercontent.com/83635356/201461798-ef84b67d-2d85-471f-8be0-1cd285d2d5f0.png)
-
 In the chart above shows the grand total by year, we can conclude that the **lowest grand total was in 2012 at 20.5%**, while the **highest grand total was in 2014 at 32%**. Although there was a decrease in total sales in 2012 from 0.6% in 2011, but in 2013 and 2014 there was an increase. It can be seen starting from **2011 with a grand total of 21%**. In 2012 total sales **decreased by 0.6%** so that total sales were 20%, in 2013 the grand total here **increased by 5.1%** so that total sales were 26.5%, while in 2014 it **increased by 5.5%** so that total sales were by 32%.
 
-### How much is the grand total per month in each year and which month has the highest and lowest grand total in each year?
+#### How much is the grand total per month in each year and which month has the highest and lowest grand total in each year?
 - 2011
 ![image](https://user-images.githubusercontent.com/83635356/201461115-e82dc6e4-4112-4902-adcb-3ee07a016d01.png)
 
@@ -92,7 +92,13 @@ Based on the graph above, **January is the month with the lowest grand total of 
 
 Based on the graph above, **February is the month with the lowest grand total of 2.8%**, while **November is the month with the highest grand total of 15.3%**. The grand total in **January** this year was not as low as the previous year at **6.1%** and then **decreased to 2.8%** and in March **rose significantly to 7.3%**. Three months later, **the grand total went up gradually**. The grand total in **April was 5.5%**, in May it **increased by 6.2%**, in June it **increased by 6.6%**. The grand total was **stagnant from June to July, both at 6.6%**. Then in August it **increased to 8.4%**, in September it **increased to 12.3%** before **decreasing in October to 10.6%**. After that, the grand total in November **increased to 15.3%** and in December **decreased again to 12.3%**.
 
-### Which month has the most significant decrease and increase in each year?
+#### How is the comparison of the grand total between each year and which month has the most significant decrease and increase in each year?
+
+
+![image](https://user-images.githubusercontent.com/83635356/201462304-257e2172-41a1-411f-8aa0-056699bcd5ab.png)
+
+The graph above shows that in **2014 almost dominated the highest total income each month**. In addition, there are several patterns of total monthly income in each year that have similarities in certain months, for example, from **February to March there is an increase in total income**, then from August to September there is also an increase but from **September to October there is decrease every year**. In **October to November experienced an increase in income**. It is estimated that the increase in grand total in November is due to the **Black Friday** event which is held every year. But the green line or 2013 is slightly different from other years at the beginning and end of the year, if you look closely, only 2013 experienced an **increase in income from January to February**, and at the **end of the year only 2013 experienced an increase in income from October to the end of December**.
+
 In 2011, **September was the month that experienced the biggest increase in the grand total of 11.1%** compared to other months, from 5.8% in August to 16.9% in September. Meanwhile, **October was the month that experienced the biggest decreased in the grand total of 10.4%** compared to other months, from 16.9% in September to 6.5% in October.
 -2012
 
@@ -104,7 +110,10 @@ In 2013, **September was the month that experienced the biggest increase in the 
 
 In 2014, **November was the month that experienced the largest increase in grand total of 4.7%** compared to other months in 2014, from 10.6% in October to 15.3% in November. Meanwhile, **February was the month that experienced the biggest decreased in the grand total of 3.3%** compared to other months, from 6.1% in January to 2.8% in February.
 
-### How is the customer segmentation using RFM model?
+
+
+
+#### How is the customer segmentation using RFM model?
 
 ![image](https://user-images.githubusercontent.com/83635356/201461741-c91d323d-cc2b-4690-abd6-f42dc69ee102.png)
 
