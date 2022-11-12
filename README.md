@@ -67,11 +67,6 @@ Code Used :
 
 # Exploratory Data Analysis
 
-#### How much is the grand total in each year?
-
-![image](https://user-images.githubusercontent.com/83635356/201461798-ef84b67d-2d85-471f-8be0-1cd285d2d5f0.png)
-In the chart above shows the grand total by year, we can conclude that the **lowest grand total was in 2012 at 20.5%**, while the **highest grand total was in 2014 at 32%**. Although there was a decrease in total sales in 2012 from 0.6% in 2011, but in 2013 and 2014 there was an increase. It can be seen starting from **2011 with a grand total of 21%**. In 2012 total sales **decreased by 0.6%** so that total sales were 20%, in 2013 the grand total here **increased by 5.1%** so that total sales were 26.5%, while in 2014 it **increased by 5.5%** so that total sales were by 32%.
-
 #### How much is the grand total per month in each year and which month has the highest and lowest grand total in each year?
 - 2011
 ![image](https://user-images.githubusercontent.com/83635356/201461115-e82dc6e4-4112-4902-adcb-3ee07a016d01.png)
@@ -92,6 +87,10 @@ Based on the graph above, **January is the month with the lowest grand total of 
 
 Based on the graph above, **February is the month with the lowest grand total of 2.8%**, while **November is the month with the highest grand total of 15.3%**. The grand total in **January** this year was not as low as the previous year at **6.1%** and then **decreased to 2.8%** and in March **rose significantly to 7.3%**. Three months later, **the grand total went up gradually**. The grand total in **April was 5.5%**, in May it **increased by 6.2%**, in June it **increased by 6.6%**. The grand total was **stagnant from June to July, both at 6.6%**. Then in August it **increased to 8.4%**, in September it **increased to 12.3%** before **decreasing in October to 10.6%**. After that, the grand total in November **increased to 15.3%** and in December **decreased again to 12.3%**.
 
+#### How much is the grand total in each year?
+
+![image](https://user-images.githubusercontent.com/83635356/201461798-ef84b67d-2d85-471f-8be0-1cd285d2d5f0.png)
+In the chart above shows the grand total by year, we can conclude that the **lowest grand total was in 2012 at 20.5%**, while the **highest grand total was in 2014 at 32%**. Although there was a decrease in total sales in 2012 from 0.6% in 2011, but in 2013 and 2014 there was an increase. It can be seen starting from **2011 with a grand total of 21%**. In 2012 total sales **decreased by 0.6%** so that total sales were 20%, in 2013 the grand total here **increased by 5.1%** so that total sales were 26.5%, while in 2014 it **increased by 5.5%** so that total sales were by 32%.
 #### How is the comparison of the grand total between each year and which month has the most significant decrease and increase in each year?
 
 
