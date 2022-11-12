@@ -90,6 +90,7 @@ Based on the graph above, **February is the month with the lowest grand total of
 #### How much is the grand total in each year?
 
 ![image](https://user-images.githubusercontent.com/83635356/201461798-ef84b67d-2d85-471f-8be0-1cd285d2d5f0.png)
+
 In the chart above shows the grand total by year, we can conclude that the **lowest grand total was in 2012 at 20.5%**, while the **highest grand total was in 2014 at 32%**. Although there was a decrease in total sales in 2012 from 0.6% in 2011, but in 2013 and 2014 there was an increase. It can be seen starting from **2011 with a grand total of 21%**. In 2012 total sales **decreased by 0.6%** so that total sales were 20%, in 2013 the grand total here **increased by 5.1%** so that total sales were 26.5%, while in 2014 it **increased by 5.5%** so that total sales were by 32%.
 #### How is the comparison of the grand total between each year and which month has the most significant decrease and increase in each year?
 
