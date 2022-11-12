@@ -110,15 +110,6 @@ In 2013, **September was the month that experienced the biggest increase in the 
 
 In 2014, **November was the month that experienced the largest increase in grand total of 4.7%** compared to other months in 2014, from 10.6% in October to 15.3% in November. Meanwhile, **February was the month that experienced the biggest decreased in the grand total of 3.3%** compared to other months, from 6.1% in January to 2.8% in February.
 
-
-
-
-#### How is the customer segmentation using RFM model?
-
-![image](https://user-images.githubusercontent.com/83635356/201461741-c91d323d-cc2b-4690-abd6-f42dc69ee102.png)
-
-The chart above shows the results of customer clustering that are labeled and included in certain categories. After modeling using RFM analysis, customers were found in several categories, there are **Loyal Customers with 33.6%** with the criteria of frequent purchases, **Big Spenders with 32.6%** with the criteria of having a large monetary value, **Lost Cheap Customers with 17.4%** or customers who can be said to be almost churn with the criteria that they have not made purchases for too long, rarely making a purchase, and not having a large monetary value, **Lost Customers with 8.1%** or a customer who can be said to be churn with the criteria of having not made a purchase for a long time, rarely making a purchase, and not having a large monetary value, **Best Customers with 7.8%** with the criteria of having just made a purchase, making frequent purchases, and having a large monetary value, and **Almost Lost with 0.5%** with the criteria of recently making a purchase, making purchases quite often, and having a low monetary value. There are **52% of customers that do not fit into a category labeled with Others**.
-
 # Preprocessing Modeling
 # RFM Analysis
 
@@ -146,6 +137,12 @@ Based on the RFM data the customer is labeled into 6 parts. for details:
 - If the **RFM_Segment is 134** then the customer labeled as **Almost Lost**.
 - If the **RFM_Segment is 344** then the customer labeled as **Lost Customers**.
 - If the **RFM_Segment is 444** then the customer labeled as **Lost Cheap Customers**.
+
+#### How is the customer segmentation using RFM model?
+
+![image](https://user-images.githubusercontent.com/83635356/201461741-c91d323d-cc2b-4690-abd6-f42dc69ee102.png)
+
+The chart above shows the results of customer clustering that are labeled and included in certain categories. After modeling using RFM analysis, customers were found in several categories, there are **Loyal Customers with 33.6%** with the criteria of frequent purchases, **Big Spenders with 32.6%** with the criteria of having a large monetary value, **Lost Cheap Customers with 17.4%** or customers who can be said to be almost churn with the criteria that they have not made purchases for too long, rarely making a purchase, and not having a large monetary value, **Lost Customers with 8.1%** or a customer who can be said to be churn with the criteria of having not made a purchase for a long time, rarely making a purchase, and not having a large monetary value, **Best Customers with 7.8%** with the criteria of having just made a purchase, making frequent purchases, and having a large monetary value, and **Almost Lost with 0.5%** with the criteria of recently making a purchase, making purchases quite often, and having a low monetary value. There are **52% of customers that do not fit into a category labeled with Others**.
 
 # Result
 
