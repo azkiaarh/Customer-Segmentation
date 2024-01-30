@@ -7,20 +7,6 @@
 - To segment customers using the RFM model to identify high-value customers.
 - To develop marketing strategies to target high-value customers and increase revenue.
 
-#### Challenges:
-- The dataset is large and has different data types.
-- It is difficult to get the frequency of customer purchases using the Groupby method.
-
-#### Methodology / Analytic Technique:
-- Exploratory data analysis (EDA) will be used to identify trends and patterns in the data.
-- A clustering model will be used to segment customers into different groups based on the RFM model.
-- Segment analysis will be used to develop marketing strategies to target high-value customers.
-
-#### Business Benefit:
-- The business will be able to better understand its customers and their needs.
-- The business will be able to develop more effective marketing strategies to target high-value customers.
-- The business will be able to increase revenue by targeting high-value customers.
-
 #### Expected Outcome:
 - The business will know the grand total in each year.
 - The business will know the grand total per month in each year and the month with the highest and lowest grand total in each year.
